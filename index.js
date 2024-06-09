@@ -11,7 +11,7 @@ var classes =
         },
     "color-mode-form": 
         {
-        "text": ["Color Mode: ", "color_mode = "],
+        "text": ["Color Mode(change color mode to make the page look like your favorite IDE!): ", "color_mode = "],
         },
     "color-mode-select":
         {
