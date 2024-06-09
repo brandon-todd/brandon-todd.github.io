@@ -11,7 +11,7 @@ var classes =
         },
     "color-mode-form": 
         {
-        "text": ["Color Mode: ", "color_mode = "],
+        "text": ["Color Mode(change color mode to make the page look like your favorite IDE!): ", "color_mode = "],
         },
     "color-mode-select":
         {
@@ -27,7 +27,7 @@ var classes =
         },
     "intro": 
         {
-        "text": ["I am a software engineer at Garmin. I graduated magna cum laude from Embry Riddle Aeronautical University in 2023. Note: change color mode to make the page look like your favorite IDE!","\"I am a software engineer at Garmin. I graduated magna cum laude from Embry Riddle Aeronautical University in 2023. Note: change color mode to make the page look like your favorite IDE!\""],
+        "text": ["I am a software engineer at Garmin. I graduated magna cum laude from Embry Riddle Aeronautical University in 2023","\"I am a software engineer at Garmin. I graduated magna cum laude from Embry Riddle Aeronautical University in 2023\""],
         },
     "resume":
         {
