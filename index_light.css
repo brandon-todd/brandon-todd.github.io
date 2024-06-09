@@ -1,0 +1,215 @@
+.name-light {
+  font-size: 22px;
+  text-align: left;
+  margin: auto;
+  color: rgb(205, 102, 31);
+  font-weight: 300;
+  margin-top: 100px;
+}
+.line-num-light {
+  font-size: 22px;
+  text-align: left;
+  color: slategray;
+  visibility: visible;
+}
+.intro-light {
+  font-size: 22px;
+  text-align: left;
+  margin: auto;
+  color: rgb(205, 102, 31);
+  font-weight: 200;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.school-light {
+  font-size: 22px;
+  text-align: left;
+  margin: auto;
+  color: rgb(205, 102, 31);
+  font-weight: 200;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.honors-light {
+  font-size: 22px;
+  text-align: left;
+  margin: auto;
+  color: rgb(205, 102, 31);
+  font-weight: 200;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.company-light {
+  font-size: 22px;
+  text-align: left;
+  margin: auto;
+  color: rgb(205, 102, 31);
+  font-weight: 200;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.job-title-light {
+  font-size: 22px;
+  text-align: left;
+  margin: auto;
+  color: rgb(205, 102, 31);
+  font-weight: 200;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.job-duties-light {
+  font-size: 22px;
+  text-align: left;
+  margin: auto;
+  color: rgb(205, 102, 31);
+  font-weight: 200;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.company-textron-light {
+  font-size: 22px;
+  text-align: left;
+  margin: auto;
+  color: rgb(205, 102, 31);
+  font-weight: 200;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.job-title-textron-light {
+  font-size: 22px;
+  text-align: left;
+  margin: auto;
+  color: rgb(205, 102, 31);
+  font-weight: 200;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.job-duties-textron-light {
+  font-size: 22px;
+  text-align: left;
+  margin: auto;
+  color: rgb(205, 102, 31);
+  font-weight: 200;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.company-canyon-light {
+  font-size: 22px;
+  text-align: left;
+  margin: auto;
+  color: rgb(205, 102, 31);
+  font-weight: 200;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.job-title-canyon-light {
+  font-size: 22px;
+  text-align: left;
+  margin: auto;
+  color: rgb(205, 102, 31);
+  font-weight: 200;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.job-duties-canyon-light {
+  font-size: 22px;
+  text-align: left;
+  margin: auto;
+  color: rgb(205, 102, 31);
+  font-weight: 200;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.body-light {
+  background-color: white;
+  font-size: 22px;
+  color: black;
+  font-weight: 200;
+  margin: auto;
+}
+.body-light div{
+  margin: auto;
+  margin-bottom: 25px;
+  overflow: auto;
+}
+.resume-light{
+  color:slategray;
+  text-align: left;
+}
+.resume-link-light {
+  margin-bottom: 100px;
+  cursor: pointer;
+  margin: auto;
+  font-size: 22px;
+  font-weight: 150;
+  text-align: left;
+  color: slateblue;
+  background-blend-mode: color;
+}
+.color-mode-form-light {
+  text-align: right;
+  margin: auto;
+  color: black;
+  font-weight: 200;
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+.type-light {
+  color: blue;
+  font-size: 22px;
+  font-weight: 200;
+  text-align: left;
+  visibility: visible;
+}
+.variable-light {
+  color: black;
+  font-size: 22px;
+  font-weight: 200;
+  text-align: left;
+  visibility: visible;
+}
+.operator-light {
+  color: black;
+  font-size: 22px;
+  font-weight: 200;
+  text-align: left;
+  visibility: visible;
+}
+.year-light {
+  font-size: 22px;
+  text-align: left;
+  margin: auto;
+  color: slateblue;
+  font-weight: 300;
+}
+.res-year-light {
+  font-size: 22px;
+  text-align: left;
+  margin: auto;
+  color: black;
+  font-weight: 300;
+}
+.int-light {
+  font-size: 22px;
+  text-align: left;
+  margin: auto;
+  color: slateblue;
+  font-weight: 300;
+  visibility: visible;
+}
+.keyword-light {
+  font-size: 22px;
+  text-align: left;
+  margin: auto;
+  font-weight: 400;
+  color: purple; 
+  visibility: visible;
+}
+.specialchar-light {
+  font-size: 22px;
+  text-align: left;
+  margin: auto;
+  font-weight: 300;
+  color: slategrey;
+  visibility: visible;
+}

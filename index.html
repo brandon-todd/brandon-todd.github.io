@@ -1,0 +1,210 @@
+<script src="index.js"></script>
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="index_dark.css">
+<link rel="stylesheet" href="index_light.css">
+<head>
+    <title class="title">
+        Web Practice
+    </title>
+</head>
+<body class="body" id="body">
+  <form name="color-mode-form" class="color-mode-form" id="color-mode-form">
+    Color Mode: <select name="color-mode-select" class="color-mode-select" id="color-mode-select">
+      <option class="option" id="option">Select Color Mode</option>
+    </select>
+  </form>
+  <div>
+    <span id="line-num" class="line-num">1.&emsp;</span>
+    <span class="type" id="type">#define</span>
+    <span class="variable" id="variable"> Current</span>
+    <span class="int" id="int">&emsp;
+      <script>
+        var curr_year = new Date().getFullYear()
+        document.write(curr_year)
+      </script>
+    </span>
+  </div>
+  <div>
+    <span id="line-num" class="line-num">2.&emsp;</span>
+    <span class="type" id="type">char </span>
+    <span id="variable" class="variable">* name</span>
+    <span id="operator" class="operator"> = </span>
+    <span id="name" class="name">Brandon Todd</span>
+    <span class="specialchar" id="specialchar">;</span>
+  </div>
+  <div>
+    <span id="line-num" class="line-num">3.&emsp;</span>
+    <span class="type" id="type">char </span>
+    <span id="variable" class="variable">* bio</span>
+    <span id="operator" class="operator"> = </span>
+    <span class="intro" id="intro">I am a software engineer at Garmin. I graduated magna cum laude from Embry Riddle Aeronautical University in 2023</span>
+    <span class="specialchar" id="specialchar">;</span>
+  </div>
+  <div>
+    <span id="line-num" class="line-num">4.&emsp;</span>
+    <span class="type" id="type">hyperLink </span>
+    <span id="variable" class="variable"> resume</span>
+    <span id="operator" class="operator"> =</span>
+    <span class="resume" id="resume">Check out my: <a class="resume-link" id="resume-link" href='./Resume.pdf'>Resume</a></span>
+    <span class="specialchar" id="specialchar">;</span>
+  </div>
+  <div>
+    <span id="line-num" class="line-num">5.&emsp;</span>
+    <span class="type" id="type">uint8 </span>
+    <span id="variable" class="variable">year</span>
+    <span id="operator" class="operator"> = </span>
+    <span class="year" id="year">
+      <script>
+        var curr_year = new Date().getFullYear()
+        document.write(curr_year)
+      </script>
+    <span class="specialchar" id="specialchar">;</span>
+    </span>
+  </div>
+  <div>
+    <span id="line-num" class="line-num">6.&emsp;</span>
+    <span class="keyword" id="keyword">switch</span>
+    <span class="specialchar" id="specialchar">(</span>
+    <span class="variable" id="variable">year</span>
+    <span class="specialchar" id="specialchar">){</span>
+  </div>
+  <div>
+    <span id="line-num" class="line-num">7.&emsp;</span>
+    <span class="keyword" id="keyword">&emsp;case</span>
+    <span class="res-year" id="res-year"> Current</span>
+    <span class="specialchar" id="specialchar">:</span>
+  </div>
+  <div>
+    <span id="line-num" class="line-num">8.&emsp;</span>
+    <span class="type" id="type">&emsp;&emsp;char</span>
+    <span class="variable" id="variable"> * company</span>
+    <span class="operator" id="operator"> = </span>
+    <span class="company" id="company">Company: Garmin</span>
+    <span class="specialchar" id="specialchar">;</span>
+  </div>
+  <div>
+    <span id="line-num" class="line-num">9.&emsp;</span>
+    <span class="type" id="type">&emsp;&emsp;char</span>
+    <span class="variable" id="variable"> * job_title</span>
+    <span class="operator" id="operator"> = </span>
+    <span class="job-title" id="job-title">Job Title: Software Engineer 1</span>
+    <span class="specialchar" id="specialchar">;</span>
+  </div>
+  <div>
+    <span id="line-num" class="line-num">10.&emsp;</span>
+    <span class="type" id="type">&emsp;&ensp;char</span>
+    <span class="variable" id="variable"> * job_overview</span>
+    <span class="specialchar" id="specialchar">[]</span>
+    <span class="operator" id="operator"> = </span>
+    <span class="specialchar" id="specialchar">{</span>
+    <span class="job-duties" id="job-duties">Work on HSI, vertical speed tape, G-meter, checklist items, and testing on Primary Flight Display.</span>
+    <span class="specialchar" id="specialchar">}</span>
+    <span class="specialchar" id="specialchar">;</span>
+  </div>
+  <div>
+    <span id="line-num" class="line-num">11.&emsp;</span>
+    <span class="keyword" id="keyword">&emsp;&ensp;break</span>
+    <span class="specialchar" id="specialchar">;</span>
+  </div>
+  <div>
+    <span id="line-num" class="line-num">12.&emsp;</span>
+    <span id="keyword" class="keyword">&ensp;case</span>
+    <span class="int" id="int" style="visibility: visible"> 2023</span>
+    <span class="specialchar" id="specialchar">:</span>
+  </div>
+  <div>
+    <span id="line-num" class="line-num">13.&emsp;</span>
+    <span class="type" id="type">&emsp;&ensp;char</span>
+    <span class="variable" id="variable"> * scool_graduated_from</span>
+    <span class="operator" id="operator"> = </span>
+    <span class="school" id="school">Graduate From School: Embry Riddle Aeronautical University Prescott</span>
+    <span class="specialchar" id="specialchar">;</span>
+  </div>
+  <div>
+    <span id="line-num" class="line-num">14.&emsp;</span>
+    <span class="type" id="type">&emsp;&ensp;char</span>
+    <span class="variable" id="variable"> * honors</span>
+    <span class="operator" id="operator"> = </span>
+    <span class="honors" id="honors">Honors: Magna Cum Laude</span>
+    <span class="specialchar" id="specialchar">;</span>
+  </div>
+  <div>
+    <span id="line-num" class="line-num">15.&emsp;</span>
+    <span id="keyword" class="keyword">&ensp;case</span>
+    <span class="int" id="int" style="visibility: visible"> 2022</span>
+    <span class="specialchar" id="specialchar">:</span>
+  </div>
+  <div>
+    <span id="line-num" class="line-num">16.&emsp;</span>
+    <span class="type" id="type">&emsp;&ensp;char</span>
+    <span class="variable" id="variable"> * company</span>
+    <span class="operator" id="operator"> = </span>
+    <span class="company-textron" id="company-textron">Company: Textron Aviation</span>
+    <span class="specialchar" id="specialchar">;</span>
+  </div>
+  <div>
+    <span id="line-num" class="line-num">17.&emsp;</span>
+    <span class="type" id="type">&emsp;&ensp;char</span>
+    <span class="variable" id="variable"> * job_title</span>
+    <span class="operator" id="operator"> = </span>
+    <span class="job-title-textron" id="job-title-textron">Job Title: IT Developer Intern PLM Department</span>
+    <span class="specialchar" id="specialchar">;</span>
+  </div>
+  <div>
+    <span id="line-num" class="line-num">18.&emsp;</span>
+    <span class="type" id="type">&emsp;&ensp;char</span>
+    <span class="variable" id="variable"> * job_overview</span>
+    <span class="specialchar" id="specialchar">[]</span>
+    <span class="operator" id="operator"> = </span>
+    <span class="specialchar" id="specialchar">{</span>
+    <span class="job-duties-textron" id="job-duties-textron">Worked on technical debt by porting web applications to linux server, Azure Dev Ops CI/CD for web applications, updated existing web pages</span>
+    <span class="specialchar" id="specialchar">}</span>
+    <span class="specialchar" id="specialchar">;</span>
+  </div>
+  <div>
+    <span id="line-num" class="line-num">19.&emsp;</span>
+    <span id="keyword" class="keyword">&ensp;case</span>
+    <span class="int" id="int" style="visibility: visible"> 2021</span>
+    <span class="specialchar" id="specialchar">:</span>
+  </div>
+  <div>
+    <span id="line-num" class="line-num">20.&emsp;</span>
+    <span class="type" id="type">&emsp;&ensp;char</span>
+    <span class="variable" id="variable"> * company</span>
+    <span class="operator" id="operator"> = </span>
+    <span class="company-canyon" id="company-canyon">Company: Canyon Aeroconnect</span>
+    <span class="specialchar" id="specialchar">;</span>
+  </div>
+  <div>
+    <span id="line-num" class="line-num">21.&emsp;</span>
+    <span class="type" id="type">&emsp;&ensp;char</span>
+    <span class="variable" id="variable"> * job_title</span>
+    <span class="operator" id="operator"> = </span>
+    <span class="job-title-canyon" id="job-title-canyon">Job Title: Software Engineer Intern</span>
+    <span class="specialchar" id="specialchar">;</span>
+  </div>
+  <div>
+    <span id="line-num" class="line-num">22.&emsp;</span>
+    <span class="type" id="type">&emsp;&ensp;char</span>
+    <span class="variable" id="variable"> * job_overview</span>
+    <span class="specialchar" id="specialchar">[]</span>
+    <span class="operator" id="operator"> = </span>
+    <span class="specialchar" id="specialchar">{</span>
+    <span class="job-duties-canyon" id="job-duties-canyon">Worked on I2C, ADC, DAC, LED peripherals on power supply chip, wrote wear leveling algorithm, wrote bootloader and field loader application, debug with JTag, Analog Discovery, and bench testing</span>
+    <span class="specialchar" id="specialchar">}</span>
+    <span class="specialchar" id="specialchar">;</span>
+  </div>
+  <div>
+    <span id="line-num" class="line-num">23.&emsp;</span>
+    <span class="keyword" id="keyword">&emsp;&ensp;break</span>
+    <span class="specialchar" id="specialchar">;</span>
+  </div>
+  <div>
+    <span id="line-num" class="line-num">24.&emsp;</span>
+    <span class="specialchar" id="specialchar">&ensp;}</span>
+  </div>
+</body>
+</body>
+</html>

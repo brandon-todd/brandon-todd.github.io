@@ -1,0 +1,203 @@
+.name {
+  font-size: 60px;
+  color: black;
+  text-align: center;
+  font-weight: 300;
+  margin: auto;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.color-mode-form {
+  text-align: right;
+  margin: auto;
+  color: black;
+  font-weight: 200;
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+.intro {
+  font-size: 22px;
+  text-align: center;
+  color: slategray;
+  font-weight: 200;
+  margin: auto;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.company {
+  font-size: 22px;
+  text-align: left;
+  color: slategray;
+  font-weight: 400;
+  margin: auto;
+  margin-left: 25%;
+  display: flex;
+}
+.job-title {
+  font-size: 22px;
+  text-align: left;
+  display: flex;
+  color: slategray;
+  margin: auto;
+  margin-left: 25%;
+  font-weight: 400;
+}
+.job-duties {
+  font-size: 22px;
+  text-align: left;
+  display: flex;
+  color: slategray;
+  margin: auto;
+  margin-left: 25%;
+  font-weight: 400;
+}
+.company-textron {
+  font-size: 22px;
+  text-align: left;
+  color: slategray;
+  font-weight: 400;
+  margin: auto;
+  margin-left: 25%;
+  display: flex;
+}
+.job-title-textron {
+  font-size: 22px;
+  text-align: left;
+  display: flex;
+  color: slategray;
+  margin: auto;
+  margin-left: 25%;
+  font-weight: 400;
+}
+.job-duties-textron {
+  font-size: 22px;
+  text-align: left;
+  display: flex;
+  color: slategray;
+  margin: auto;
+  margin-left: 25%;
+  font-weight: 400;
+}
+.company-canyon {
+  font-size: 22px;
+  text-align: left;
+  color: slategray;
+  font-weight: 400;
+  margin: auto;
+  margin-left: 25%;
+  display: flex;
+}
+.job-title-canyon {
+  font-size: 22px;
+  text-align: left;
+  display: flex;
+  color: slategray;
+  margin: auto;
+  margin-left: 25%;
+  font-weight: 400;
+}
+.job-duties-canyon {
+  font-size: 22px;
+  text-align: left;
+  display: flex;
+  color: slategray;
+  margin: auto;
+  margin-left: 25%;
+  font-weight: 400;
+}
+.school {
+  font-size: 22px;
+  text-align: left;
+  display: flex;
+  margin: auto;
+  margin-left: 25%;
+  color: slategray;
+  font-weight: 400;
+}
+.body {
+  background-color: whitesmoke;
+  text-align: center;
+}
+.body div{
+  display: block;
+  overflow: auto;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+.resume{
+  color:slategray;
+  font-size: 22px;
+  color: slategray;
+  text-align: center;
+  margin: auto;
+}
+.resume-link{
+  cursor: pointer;
+  margin: auto;
+  font-size: 22px;
+  font-weight: 150;
+  text-align: center;
+  color: slateblue;
+  background-blend-mode: color;
+}
+.type {
+  color: blue;
+  font-size: 22px;
+  font-weight: 200;
+  text-align: left;
+  display: none;
+  visibility: collapse;
+}
+.variable {
+  display: none;
+  visibility: collapse;
+}
+.operator {
+  display: none;
+  visibility: collapse;
+}
+.line-num {
+  display: none;
+  visibility: collapse;
+}
+.year {
+  display: none;
+  visibility: collapse;
+}
+.res-year {
+  font-size: 22px;
+  text-align: left;
+  display: flex;
+  font-weight: 300;
+  color: slategray;
+  margin: auto;
+  margin-left: 15%;
+}
+.int {
+  font-size: 22px;
+  text-align: left;
+  display: flex;
+  font-weight: 300;
+  color: slategray;
+  margin: auto;
+  margin-left: 15%;
+  visibility: collapse;
+}
+.keyword {
+  visibility: collapse;
+  display: none;
+}
+.specialchar {
+  display: none;
+  visibility: collapse;
+}
+.honors {
+  font-size: 22px;
+  text-align: left;
+  display: flex;
+  margin: auto;
+  margin-left: 25%;
+  color: slategray;
+}
