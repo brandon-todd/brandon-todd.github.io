@@ -40,7 +40,7 @@ var classes =
     "year": {},
     "job-title": 
         {
-        "text": ["Job Title: Software Engineer 2","\"Software Engineer 2\""],
+        "text": ["Job Title: Component Lead Misc Data, Software Engineer 2","\"Component Lead Misc Data, Software Engineer 2\""],
         },
     "company":
         {
